@@ -1,0 +1,90 @@
+body {
+    background-image: url('pngtree-porth-nanven-outdoors-sea-ocean-png-image_14377552.png');
+    background-size: cover;  /* Cubre toda la pantalla */
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Asegura que el fondo ocupe toda la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400px;
+    src:
+    local("Times New Roman")
+    url('TimesNewRoman-Regular.woff2') format('woff2'),
+    url('TimesNewRoman-Regular.woff') format('woff');
+}
+@font-face{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400px;
+    src:
+    local("Arial")
+    url('Arial-Regular.woff2') format('woff2'),
+    url('Arial-Regular.woff') format('woff');
+}
+.container{
+    text-align: center;
+    
+
+}
+ul {
+   
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+    
+    
+}
+li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(209, 165, 250);
+    border-radius: 50px;
+    width: 250px;
+    justify-content: center;
+   
+}
+
+p{
+    font-family: "Arial", sans-serif;
+    align-items: center;
+    color: rgb(63, 62, 61);
+    
+}
+button{
+    color:white;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Times New Roman", sans-serif;
+    width:100% ;
+    
+    
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: rgb(222, 203, 249);
+    width: 350px;  /* Define un ancho más pequeño */
+    max-width: 90%; /* Evita que sea más ancho en pantallas pequeñas */
+    padding: 30px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
